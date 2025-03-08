@@ -1,0 +1,106 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    height: 15vh;
+    font-weight: 500;
+    position: fixed;
+    top: 0;
+    background-color: rgb(28, 253, 227);
+    width: 100vw;
+    font-size: 20px;
+}
+
+/* navigation completed */
+
+
+#home {
+    margin-top: 15vh;
+}
+
+.home-info {
+    height: 55vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.services-info {
+    height: 30vh;
+}
+
+.child-home-info {
+    width: 50%;
+}
+
+.home-info>img {
+    height: 500px;
+    position: absolute;
+    right: 90px;
+    top: 180px;
+    border-radius: 50%;
+    background-color: rgb(225, 82, 82);
+}
+
+.pink-color{
+    color: rgb(243, 117, 138);
+}
+
+.child-home-info>button{
+    background-color: pink;
+    padding: 10px;
+    border: none;
+    border-radius: 19px;
+    color: white;
+    font-weight: 700;
+}
+.child-home-info>button:active{
+    transform: scale(0.8);
+}
+
+.services-info>div:nth-child(1){
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.services-info{
+    padding: 10px;
+}
+
+.services-info>div:nth-child(2){
+    display: flex;
+    padding: 20px;
+}
+
+.basic-card{
+    margin: 5px;
+    width: 200px;
+    background-color: pink;
+    padding: 5px;
+    border-radius: 19px;
+}
+
+
+
+.basic-card>p{
+    font-size: 12px;
+}
+.basic-card>img{
+    height: 80px;
+}
+.basic-card>h3{
+    margin: 0;
+}
